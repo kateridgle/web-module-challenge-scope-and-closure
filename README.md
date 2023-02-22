@@ -82,8 +82,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  The closure is the return function() reaching outside the function for the defined names. To me, the curly braces in a function represent the opening and closing.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  Dan's toll would change each time the function is called.
 c. What is the lexical scope of `newRoll`? 
+  The local scope of newRoll is within the return function() scope.
 
 
 ### Task 3 - Stretch Goals
